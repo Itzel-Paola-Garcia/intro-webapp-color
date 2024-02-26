@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.color-picker {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.color-display {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.hex-code {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.manual-input {
+    margin-top: 20px;
+}
+
